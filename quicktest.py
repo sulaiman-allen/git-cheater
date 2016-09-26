@@ -7,7 +7,11 @@ def main():
     html = requests.get(url)
     html = html
     soup = BeautifulSoup(html.content, "lxml")
-    print("results = ", soup.find_all('span', class_='text-gray m-0'))
+    results = soup.find_all('span', class_='text-gray m-0')
+
+    for result in results:
+        print("result = ", result.string)
+
 
 
 if __name__ == '__main__':
