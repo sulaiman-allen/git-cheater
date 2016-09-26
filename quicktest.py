@@ -11,6 +11,11 @@ def main():
 
     for result in results:
         print("result = ", result.string)
+        print("type of result = ", type(result.string))
+        if "had no activity during this period" in str(result.string.encode("utf-8")):
+            print("true")
+        else:
+            print("false")
 
 
 
