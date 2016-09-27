@@ -12,10 +12,12 @@
 # ( ͡° ͜ʖ ͡°)
  
 ### Install
+ Begin by forking this project to your own repo
+ 
  The "git-cheater" folder must be placed in the /home/username directory in order to function
  properly.
  ```
- cd ~ && git clone https://github.com/sulaiman-allen/git-cheater.git && cd git-cheater
+ cd ~ && git clone https://github.com/YOUROWNUSERNAMEAFTERFORKING/git-cheater.git && cd git-cheater
  ```
  git-cheater makes use of the python requests package. If the package isn't installed..
  ```
