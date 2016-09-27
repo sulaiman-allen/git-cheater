@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This is a script for the initial setup of the cron job used to automate the process of running the
+# other scripts.
+
 # write current crontab
 crontab -l > gitcheater
 
