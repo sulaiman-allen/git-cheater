@@ -12,7 +12,7 @@ def main():
 
     current_date = datetime.now().strftime("%Y-%m-%d")
     base_url = "https://github.com/" + git_username + "?tab=overview&from=" + current_date
-    base_url = "https://github.com/sulaiman-allen?tab=overview&from=2016-03-01"
+    #base_url = "https://github.com/sulaiman-allen?tab=overview&from=2016-03-01"
 
     commit_rolodex = ['Just checking to see if anyone is actually reading these things',
                       'Updated method to reference absolute pointer position',
