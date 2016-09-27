@@ -1,7 +1,15 @@
 # git cheater
- A script for updating git once a day if no commit has been added that day.
- Created in reaction to a company's idea that hiring practice dictates choosing
- a candidate should be based upon the number of commits that person has on github.
+ A script for updating git once a day if no commit has been added that day. Randomly
+ picks a commit message from a list of prewritten messages and modifies a file, scumbag.txt
+ by writing the message "Another unsuccesful day". These unsuccesful days will continue to pile
+ up until a real commit is written.
+ 
+ This project was created in reaction to a company's idea that hiring practice dictates choosing
+ a candidate should be based upon the number of commits that person has on github. Although this 
+ script only runs once a day, it could easily be modified to run any number of times without 
+ checking to see if a commit even exists for that day. Just throw a few more commit messages in
+ the rolodex and it may actually look like you are a productive member of society.
+# ( ͡° ͜ʖ ͡°)
  
 ### Install
  The "git-cheater" folder must be placed in the /home/username directory in order to function
