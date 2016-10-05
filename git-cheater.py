@@ -47,6 +47,13 @@ def main():
 
             elif "had no activity during this period" in str(result.string.encode("utf-8")):
                 print("disregard this, this is just for checking past events.")
+                with open('scumbag.txt', "a+") as outfile:
+                    outfile.write("Another unsuccesful day\n")
+
+                subprocess.call(['git', 'add', 'scumbag.txt'])
+                subprocess.call(['git', 'commit', '-m', chosen_commit])
+                subprocess.call(['git', 'push', 'origin', 'master'])
+
     else:
         print("commits were made for this day")
         subprocess.call(['rm', 'scumbag.txt'])
