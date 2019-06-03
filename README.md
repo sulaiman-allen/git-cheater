@@ -29,7 +29,7 @@
  ```
  and run 
  ```
- ./init.sh.
+ ./init.sh
  ```
  init.sh will create a cronjob which will be run once a day at 11:58 pm that executes the main script
  to check for if a commit has been made that day. After init.sh has been run, there is no longer any 
